@@ -1,0 +1,18 @@
+{
+    "binFileName": "te_ReduceProd_3eff6f199ad5a01b52a672b169b485e16aca8c56998360a1bdf7f1d0e5aa329e",
+    "binFileSuffix": ".o",
+    "blockDim": 1,
+    "coreType": "VectorCore",
+    "deterministic": "ignore",
+    "intercoreSync": 0,
+    "kernelName": "te_reduceprod_4bf6af3cf5b84591d7cd3add1b1a5376f9fe8656f001870e3b50f0c6c923aa8d_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF_AIVEC",
+    "memoryStamping": [],
+    "opParaSize": 0,
+    "parameters": [
+        null,
+        null,
+        null
+    ],
+    "sha256": "65f08f5424de4096212d257a3b81b1ceb00f9dfd5d758b3ed6831c29588f9326"
+}

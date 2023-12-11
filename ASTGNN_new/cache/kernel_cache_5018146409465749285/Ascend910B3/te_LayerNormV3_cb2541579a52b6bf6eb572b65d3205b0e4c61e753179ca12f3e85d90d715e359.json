@@ -1,0 +1,313 @@
+{
+    "binFileName": "te_LayerNormV3_cb2541579a52b6bf6eb572b65d3205b0e4c61e753179ca12f3e85d90d715e359",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "compileInfo": {
+        "_available_ub_size": {
+            "4005": [
+                11736,
+                9816,
+                11672,
+                8168,
+                12256
+            ],
+            "5006": [
+                12256,
+                9816,
+                9752,
+                8168,
+                12256
+            ]
+        },
+        "_block_size": {
+            "4005": 8,
+            "5006": 8
+        },
+        "_can_enable_auto_brcb": true,
+        "_common_info": [
+            40,
+            8,
+            128
+        ],
+        "_cube_vector_core_type": "VectorCore",
+        "_custom_vars": {
+            "1000400500": [
+                "mean_cof"
+            ],
+            "1000400501": [
+                "mean_cof"
+            ],
+            "1000500610": [],
+            "1000500611": [],
+            "1200400500": [
+                "mean_cof"
+            ],
+            "1300400500": [
+                "mean_cof"
+            ],
+            "1400400500": [
+                "mean_cof"
+            ],
+            "1600400500": [
+                "mean_cof"
+            ]
+        },
+        "_exist_output_after_reduce": true,
+        "_exist_workspace_after_reduce": false,
+        "_fuse_axis": true,
+        "_input_type": [
+            0,
+            1,
+            1
+        ],
+        "_is_mte_at_least_one_block": false,
+        "_norm_vars": {
+            "1000400500": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "1000400501": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "1000500610": [
+                20001,
+                30000,
+                40000
+            ],
+            "1000500611": [
+                20001,
+                30000,
+                40000
+            ],
+            "1200400500": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "1300400500": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "1400400500": [
+                20000,
+                20001,
+                30000,
+                40000
+            ],
+            "1600400500": [
+                20000,
+                20001,
+                30000,
+                40000
+            ]
+        },
+        "_normal_vars": {
+            "1000400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1000400501": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1000500610": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1000500611": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1200400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1300400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1400400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1600400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ]
+        },
+        "_ori_broadcast_axis": [
+            0,
+            1,
+            2
+        ],
+        "_ori_reduce_axis": [
+            3
+        ],
+        "_pattern": "Norm",
+        "_vars": {
+            "1000400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "mean_cof"
+            ],
+            "1000400501": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "mean_cof"
+            ],
+            "1000500610": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1000500611": [
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor"
+            ],
+            "1200400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "mean_cof"
+            ],
+            "1300400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "mean_cof"
+            ],
+            "1400400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "mean_cof"
+            ],
+            "1600400500": [
+                "_dim_0",
+                "_dim_1",
+                "_block_factor",
+                "_ub_factor",
+                "mean_cof"
+            ]
+        },
+        "_workspace_info": {
+            "1000400500": [
+                32
+            ],
+            "1000400501": [
+                4
+            ],
+            "1000500610": [
+                4
+            ],
+            "1000500611": [
+                32
+            ],
+            "1200400500": [
+                32
+            ],
+            "1300400500": [
+                32
+            ],
+            "1400400500": [
+                32
+            ],
+            "1600400500": [
+                32
+            ]
+        },
+        "device_id": "0",
+        "reduce_mean_cof_dtype": "float32"
+    },
+    "coreType": "VectorCore",
+    "deterministic": "ignore",
+    "intercoreSync": 0,
+    "kernelList": [
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernormv3_289f57708d6ec4167f42a299fd1c45cf11aa2117e10cb55e4a26fb811db487bb_fuzzy_1000400500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernormv3_289f57708d6ec4167f42a299fd1c45cf11aa2117e10cb55e4a26fb811db487bb_fuzzy_1000400501"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernormv3_289f57708d6ec4167f42a299fd1c45cf11aa2117e10cb55e4a26fb811db487bb_fuzzy_1200400500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernormv3_289f57708d6ec4167f42a299fd1c45cf11aa2117e10cb55e4a26fb811db487bb_fuzzy_1300400500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernormv3_289f57708d6ec4167f42a299fd1c45cf11aa2117e10cb55e4a26fb811db487bb_fuzzy_1400400500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernormv3_289f57708d6ec4167f42a299fd1c45cf11aa2117e10cb55e4a26fb811db487bb_fuzzy_1600400500"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernormv3_289f57708d6ec4167f42a299fd1c45cf11aa2117e10cb55e4a26fb811db487bb_fuzzy_1000500610"
+        },
+        {
+            "deterministic": "ignore",
+            "kernelName": "te_layernormv3_289f57708d6ec4167f42a299fd1c45cf11aa2117e10cb55e4a26fb811db487bb_fuzzy_1000500611"
+        }
+    ],
+    "kernelName": "te_layernormv3_289f57708d6ec4167f42a299fd1c45cf11aa2117e10cb55e4a26fb811db487bb_fuzzy",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF_AIVEC",
+    "memoryStamping": [],
+    "opParaSize": 20,
+    "parameters": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256": "5ec99a684933318b84e64b1acc61e41397cdb82d2c88831527f6aed6977594c5",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    }
+}
